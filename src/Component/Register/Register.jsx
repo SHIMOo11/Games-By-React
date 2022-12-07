@@ -30,7 +30,7 @@ export default function Register() {
 
   async function sendUserDataToApi() {
     let { data } = await axios.post(
-      "https://route-egypt-api.herokuapp.com/signup",
+      "https://sticky-note-fe.vercel.app/signup",
       user
     );
 
