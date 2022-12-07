@@ -23,7 +23,7 @@ export default function Login({ decodeUserData }) {
   }
   async function sendUserDataToApi() {
     let { data } = await Axios.post(
-      "https://route-egypt-api.herokuapp.com/signin",
+      "https://sticky-note-fe.vercel.app/signin",
       user
     );
 
